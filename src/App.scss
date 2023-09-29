@@ -1,0 +1,17 @@
+@import "style/main";
+
+.App {
+  font-family: 'Heebo', sans-serif;
+  background-color: $off-white;
+  display: flex;
+  height: 93vh;
+  width: 90vw;
+  max-width: 1300px;
+  margin: 1.5rem auto;
+  border-radius: .6rem;
+  overflow: hidden;
+}
+
+html {
+    background-color: $gray;
+}

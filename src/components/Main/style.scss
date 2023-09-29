@@ -1,0 +1,25 @@
+.main {
+    width: 100%;
+    padding: 1.5rem 3rem;
+    overflow-y: auto;
+
+    &__top {
+        display: flex;
+        gap: 5rem;
+    }
+    &__mid {
+        margin: 3rem 0;
+        display: flex;
+        justify-content: space-between;
+
+        &--right {
+            display: flex;
+            height: fit-content;
+            gap: 2rem;
+            & > * {
+                padding: .7rem;
+            }
+        }
+
+    }
+}

@@ -1,0 +1,41 @@
+@import "variables";
+
+.text-xs {
+    font-size: .8rem;
+}
+
+.text-lg {
+    font-size: 2rem;
+}
+
+.text-gray {
+    color: $gray;
+}
+
+.text-black {
+    color: black;
+}
+
+.text-active {
+    color: $active;
+}
+
+.fw-300 {
+    font-weight: 300;
+}
+
+.bold-400 {
+    font-weight: 400;
+}
+
+.bold-500 {
+    font-weight: 500;
+}
+
+.bold-700 {
+    font-weight: 700;
+}
+
+.mb-1 {
+    margin-bottom: 1rem;
+}
